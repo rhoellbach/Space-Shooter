@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4592263328438718}
   - component: {fileID: 54951531744694256}
   - component: {fileID: 136329018480124856}
-  - component: {fileID: 114001085986286342}
+  - component: {fileID: 114263365788893688}
   m_Layer: 0
   m_Name: Bolt 1
   m_TagString: Untagged
@@ -82,6 +82,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -97,6 +98,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -127,7 +129,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114001085986286342
+--- !u!114 &114263365788893688
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -135,10 +137,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1337516453832212}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36bcef7c707566443a608c2310dba39d, type: 3}
+  m_Script: {fileID: 11500000, guid: 1fcdf040277c2574ba350ed9e730bf13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 20
 --- !u!136 &136329018480124856
 CapsuleCollider:
   m_ObjectHideFlags: 1
