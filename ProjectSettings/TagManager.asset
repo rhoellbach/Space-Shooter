@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Boundary
   - Astroid
+  - Enemy
   layers:
   - Default
   - TransparentFX
